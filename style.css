@@ -1,0 +1,52 @@
+body{
+    padding: 20px;
+}
+
+*{
+    font-family: monospace;
+}
+
+#box{
+    display: flex;
+    height:80px;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    color: white;
+    background-color: brown;
+}
+
+button{
+    width: 200px;
+    border: 4px solid brown;
+    background-color: white;
+    font-weight: bold;
+    font-size:17px;
+    display: flex;
+    margin: 20px;
+    padding:10px;
+    justify-content: center;
+}
+
+button:hover{
+    cursor:pointer;
+    color:#fff;
+    background-color: brown;
+    box-shadow: 2px 2px 5px brown;
+}
+
+input{
+    padding:5px;
+    width: 350px;
+    border: 4px solid brown;
+}
+
+input:focus{
+    color:brown;
+    box-shadow: 2px 2px 5px brown; 
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
